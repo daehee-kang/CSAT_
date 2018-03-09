@@ -1,0 +1,169 @@
+﻿body {
+    font-family: Montserrat;
+    background-color:black;
+    color:white;
+    font-size: 50px;
+    margin:0;
+}
+
+#logo_container{
+    height: 10%;
+    width:100%;
+    background-color:red;
+}
+
+#logo_content {
+    position:relative;
+    width:1080px;
+    margin: 0 auto;
+    font-family: 'Bauhaus 93';
+    font-size: 80%;
+    padding: 10px;
+    color: white;
+    text-shadow: 0.05em 0.05em #000;
+}
+
+#banner{
+    height: 300px;
+    background-image: url('../Image/Sushi_Banner.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+#content_container {
+    height: auto;
+}
+
+#content_content {
+    font-size: 50%;
+    width:1080px;
+    margin:0 auto;
+    color: white;
+    overflow-wrap:break-word;
+}
+
+#footer {
+    font-size: 20%;
+    clear: both;
+    width: auto;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+}
+
+#navigation_container{
+    height: 50px;
+    line-height:50px;
+    background-color:red;
+}
+
+#navigation_content{
+    width: 1080px;
+    margin:0 auto;
+}
+
+#hnav{
+    list-style:none;
+    float:left;
+    margin:0;
+}
+
+#hnav ul{
+    display:none;
+    list-style:none;
+}
+
+#hnav li{
+    font-size:50%;
+    width:200px;
+    float:left;
+    position:relative;
+    text-align:center;
+}
+
+#hnav a:link, #hnav a:active, #hnav a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    color: white;
+}
+
+#hnav a:hover{
+    background-color:white;
+    color: red;
+}
+
+.imgLeft {
+    float: left;
+    width: 240px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+}
+
+.imgRight {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 auto auto;
+    padding: 10px;
+}
+
+.foodTable {
+    width: 750px;
+    height: 250px;
+    margin: 10px 10px 10px 0;
+    border: 3px solid white;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+}
+
+.foodTable tr th, .foodTable tr td {
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+
+.foodTable img {
+    padding: 0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    #logo_content {
+        width: 270px;
+    }
+
+    #navigation_container {
+        height: 200px;
+    }
+
+    #navigation_content {
+        width: 270px;
+    }
+
+    #content_content {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 540px){
+    #logo_content{
+        width:540px;
+    }
+    #navigation_container{
+        height:100px;
+    }
+    #navigation_content{
+        width:540px;
+    }
+    #content_content{
+        width:540px;
+    }
+}
