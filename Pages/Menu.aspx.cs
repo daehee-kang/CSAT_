@@ -1,4 +1,4 @@
-﻿using CSAT_.App_Code;
+﻿using CSAT.App_Code;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CSAT_.Pages
+namespace CSAT.Pages
 {
     public partial class Menu : System.Web.UI.Page
     {
@@ -22,7 +22,7 @@ namespace CSAT_.Pages
             ArrayList foodList = Connection.GetFoodByType(!IsPostBack ? "%" : selectType.SelectedValue);
             StringBuilder sb = new StringBuilder();
 
-            foreach (App_Code.Entities.Food food in foodList)
+            foreach (App_Code.Food food in foodList)
             {
                 //< th rowspan = '6' width = '150px' >< img runat = 'server' src = '{6}' /></ th >
                 //< th width = '50px' > Name: </ td >

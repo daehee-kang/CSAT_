@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSAT_ {
+namespace CSAT {
     
     
     public partial class MasterPage {

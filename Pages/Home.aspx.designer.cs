@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSAT_.Pages {
+namespace CSAT.Pages {
     
     
     public partial class Home {

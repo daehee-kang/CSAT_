@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CSATConnection-Web.config Connection String" description="CSATConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localDB)\MSSQLLocalDB;Initial Catalog=FoodDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Daehee\\Documents\\Visual\ Studio\ 2017\\Projects\\CSAT\\CSAT\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CSATConnection']/@connectionString" />
+  </parameter>
+  <parameter name="FoodDBConnString-Web.config Connection String" description="FoodDBConnString Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=FoodDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Daehee\\Documents\\Visual\ Studio\ 2017\\Projects\\CSAT\\CSAT\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FoodDBConnString']/@connectionString" />
+  </parameter>
+</parameters>

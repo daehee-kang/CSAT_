@@ -32,4 +32,4 @@ C:\Users\Daehee\Documents\Visual Studio 2017\Projects\CSAT\CSAT_\bin\Microsoft.C
 C:\Users\Daehee\Documents\Visual Studio 2017\Projects\CSAT\CSAT_\obj\Debug\CSAT_.dll
 C:\Users\Daehee\Documents\Visual Studio 2017\Projects\CSAT\CSAT_\obj\Debug\CSAT_.pdb
 C:\Users\Daehee\Documents\Visual Studio 2017\Projects\CSAT\CSAT_\obj\Debug\CSAT_.csprojResolveAssemblyReference.cache
-C:\Users\Daehee\Documents\Visual Studio 2017\Projects\CSAT\CSAT_\bin\CSS\Connection.cs
+C:\Users\Daehee\Documents\Visual Studio 2017\Projects\CSAT\CSAT_\bin\App_Code\Entities\Connection.cs
